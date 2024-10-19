@@ -1,0 +1,60 @@
+.empower-section1 {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-top: 5px;
+ }
+ .image-container {
+    box-sizing: border-box;
+    display: block;
+    width: 525px;
+    max-width: initial;
+    height: 404px;
+    margin-right: -55px;
+    border: none;
+    object-fit: contain;
+ }
+ .empower-section2 {
+    flex: 1 0 auto;
+    padding-top: 5px;
+ }
+ .main-heading-style {
+    padding: 0;
+    padding-right: 48px;
+    padding-left: 254px;
+    margin: 0;
+    font: 400 32px/32px Inder, sans-serif;
+    color: black;
+ }
+ .empower-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 67px;
+    margin-top: 13px;
+    background: #2a3d71;
+    border-radius: 50px;
+ }
+ .empower-section {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    max-width: 1077px;
+    padding-top: 51px;
+    padding-bottom: 45px;
+ }
+ .empower-text-styler {
+    flex: 0 0 auto;
+    padding: 0;
+    margin: 0;
+    font: 400 28px/28px Actor, sans-serif;
+    color: #d9d9d9;
+    text-align: left;
+ }
