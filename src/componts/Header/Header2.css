@@ -1,60 +1,79 @@
-.empower-section1 {
+.futuristic-academy-card {
+    box-sizing: border-box;
     display: flex;
     flex: 0 0 auto;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-end;
-    margin-top: 5px;
- }
- .image-container {
-    box-sizing: border-box;
-    display: block;
-    width: 525px;
-    max-width: initial;
-    height: 404px;
-    margin-right: -55px;
-    border: none;
-    object-fit: contain;
- }
- .empower-section2 {
-    flex: 1 0 auto;
-    padding-top: 5px;
- }
- .main-heading-style {
-    padding: 0;
-    padding-right: 48px;
-    padding-left: 254px;
-    margin: 0;
-    font: 400 32px/32px Inder, sans-serif;
-    color: black;
- }
- .empower-container {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
+    gap: 8px;
     align-items: center;
-    justify-content: flex-start;
-    width: 100%;
-    padding-left: 67px;
-    margin-top: 13px;
-    background: #2a3d71;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-right: 4px;
+    padding-left: 54px;
+    background: #d9d9d9;
     border-radius: 50px;
- }
- .empower-section {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    justify-content: center;
-    max-width: 1077px;
-    padding-top: 51px;
-    padding-bottom: 45px;
- }
- .empower-text-styler {
+  }
+  .academy-intro-section {
     flex: 0 0 auto;
+    padding-top: 31.5px;
+  }
+  .futuristic-heading {
     padding: 0;
     margin: 0;
-    font: 400 28px/28px Actor, sans-serif;
-    color: #d9d9d9;
+    font: 600 54px/54px Inter, sans-serif;
+    color: black;
     text-align: left;
- }
+  }
+  .learning-journey-heading {
+    padding: 0;
+    margin: 0;
+    margin-top: 39px;
+    font: 400 20px/20px Actor, sans-serif;
+    color: black;
+  }
+  .course-list-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 41px;
+  }
+  .course-card {
+    box-sizing: border-box;
+    flex: 0 0 225px;
+  }
+  .hero-banner-text-input {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 54px;
+    padding-left: 19px;
+    font: 400 24px/24px Actor, sans-serif;
+    color: white;
+    background: #51618b;
+    border: none;
+  }
+  .transparent-input-style {
+    box-sizing: border-box;
+    width: 100%;
+    font: 400 24px/24px Actor, sans-serif;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  .input-style-2a23c945::placeholder {
+    color: white;
+  }
+  .course-title-section {
+    box-sizing: border-box;
+    flex: 0 0 242px;
+    padding: 0;
+    margin: 0;
+    margin-left: 32px;
+    font: 400 24px/24px Actor, sans-serif;
+    color: white;
+    background: #51618b;
+  }
+  
